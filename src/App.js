@@ -10,7 +10,7 @@ import { Contact } from "./components/Pages/Contact";
 function App() {
   return (
     <>
-      <Router>
+      <Router basename={'/Wirungroup_Preview'}>
         <NavBar />
 
         <div className="pages">
